@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  storage-server:
+    build: .
+    container_name: storage_server
+    ports:
+      - "8084:8084"
+    volumes:
+      - ./app/files:/usr/src/app/files:ro
+    restart: unless-stopped
