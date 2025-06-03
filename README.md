@@ -9,6 +9,6 @@
 
 
 2.  **Test**
-   - download file: `curl -OJ http://localhost:5000/download/wireguard`
-   - list files: `curl http://localhost:5000/list-files`
+   - download file: `curl -OJ http://localhost:8084/download/wireguard`
+   - list files: `curl http://localhost:8084/list-files`
     
